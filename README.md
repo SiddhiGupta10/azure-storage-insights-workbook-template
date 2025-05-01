@@ -1,0 +1,1 @@
+# azure-storage-insights-workbook-template
