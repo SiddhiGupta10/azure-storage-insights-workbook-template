@@ -24,10 +24,12 @@ We have enhanced the capability of Storage insights by updating the default work
 - Workbook is curated to show 10 sections, as mentioned below:
   - **Resource Group Section:** Here one can view the structural hierarchy of storage account i.e., to which resource group and subscription it belong, count of storage account under each resource group.
   - **Overview Section:** Its gives grid-view information on storage transactions with timeline, E2E and server latency, account availibilty and errors. One can easily hover and click on specific storage account from table to navigate to that resource. 
-  - **Capacity Section:** This section provides
-  - **Count By Type:**
-  - **Blob Count:**
-  - **Blob Capacity:**
+  - **Capacity Section:** This section shows the total amount of storage used for each storage data object in the account.
+  - **Count By Type:** This section shows how many data objects are stored in the account in a grid view and count sumed up at subscription level.
+  - **Blob Count:** This tab shows blob count information as per the choosen way - either by _Type_ or by _Tier_.
+    - If Type is selected it shows blob count spiltted into ADLS, page blob and block blob.
+    - If Tier is selected count of blob as per Hot, Cool, Archive and Cold tier will be shown.
+  - **Blob Capacity:** Similar to Blob Count, this section also gives 2 data views - Type and Tier for same variables.  
   - **Blob Backup:**
   - **FileShare Info**
   - **Cost Estimation:**
