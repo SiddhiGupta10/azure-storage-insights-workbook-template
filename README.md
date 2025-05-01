@@ -10,11 +10,20 @@ Storage insights provides comprehensive monitoring of your Azure Storage account
 
 - **Customizable** where you can change which metrics you want to see, modify or set thresholds that align with your limits, and save as your own workbook. Charts in the workbook can be pinned to Azure dashboard.
 
-## What is new and improved?
+## How it is helpful?
+- **Improved Storage Performance**: Storage Insights can help improve storage performance by providing valuable data and insights to optimize storage systems and enhance operational efficiency.
+- **Resource Utilization Optimization**: Storage Insights enable you to optimize resource utilization, ensuring that storage resources are efficiently allocated and utilized to meet business needs.
+- **Cost Reduction**: By using Storage Insights, you can reduce costs associated with storage by identifying inefficiencies and implementing cost-saving strategies based on data-driven insights.
+- **Enhanced Security and Compliance**: Storage Insights help ensure the security and compliance of your storage environment by providing insights into data protection measures and regulatory compliance requirements
+  
+## What is added and improved?
 We have enhanced the capability of Storage insights by updating the default workbook to give more visual information related to detailed subscription/resource group information of storage account, blob information on count, capacity and backup, fileshare capacity utilisation at sorage level and DfS cost estimation to help monitor and optimize our storage resources effectively. This asset aims to provides workbook template as a valuable tool which can be intergrated in any environment, designed to provide a detailed overview of Azure Storage Accounts.
 
-## How is it helpful?
 - It lets you filter the view by selecting subscription, storage account and time range.
 - Number of storage account for which information is presented shown on top.
 - Workbook is curated to show 10 sections, as mentioned below:
-  - **Resource Group Section:** Here 
+  - **Resource Group Section:** Here one can easily see to which
+ 
+
+
+
