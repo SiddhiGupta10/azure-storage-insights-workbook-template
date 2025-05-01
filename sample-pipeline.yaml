@@ -1,0 +1,20 @@
+trigger: none
+
+pool:
+  vmImage: 'windows-latest'
+ 
+stages :        
+  - stage: workbook_arm_template_deploy
+    jobs:
+      - job: template_deployment
+        steps:
+          - task: AzureResourceManagerTemplateDeployment@3
+            inputs:
+                deploymentScope: 'Resource Group'
+                azureResourceManagerConnection: <service-connection>
+                subscriptionId: <Your-Subscription-ID>
+                  resourceGroupName: <resource-group-name>
+                  location: 'eastus2'
+                  templateLocation: 'Linked artifact'
+                  csmFile: '$(System.DefaultWorkingDirectory)/workbook-template.json'
+                  deploymentMode: 'Incremental'
