@@ -40,6 +40,15 @@ This asset aims to provides workbook template as a valuable tool which can be in
  
 ## How to deploy?
 
+## What are the limitations?
+- **Scope and Scale:** 
+Limited to Storage Accounts: Storage Insights primarily focuses on Azure Storage accounts, therefore its not suitable for other types of storage solutions or third-party storage services. Also, the number of selected storage accounts has a limit of 200.
+Data Volume: When dealing with numerous storage accounts, the analysis might take longer to complete, and there could be performance impacts.
+
+- **Limited Customization Options:** It may not be as flexible as other specialized monitoring tools. Users might find it challenging to tailor the insights to specific needs beyond the provided metrics.
+
+- **Latency in Data Collection:** There can be a delay in data collection and reporting, which means it might not be suitable for real-time monitoring needs.
+
 ## References
 - https://learn.microsoft.com/en-us/azure/storage/common/storage-insights-overview
 - https://learn.microsoft.com/en-us/azure/azure-monitor/visualize/workbooks-automate
