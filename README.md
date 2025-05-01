@@ -22,8 +22,21 @@ We have enhanced the capability of Storage insights by updating the default work
 - It lets you filter the view by selecting subscription, storage account and time range.
 - Number of storage account for which information is presented shown on top.
 - Workbook is curated to show 10 sections, as mentioned below:
-  - **Resource Group Section:** Here one can easily see to which
+  - **Resource Group Section:** Here one can view the structural hierarchy of storage account i.e., to which resource group and subscription it belong, count of storage account under each resource group.
+  - **Overview Section:** Its gives grid-view information on storage transactions with timeline, E2E and server latency, account availibilty and errors. One can easily hover and click on specific storage account from table to navigate to that resource. 
+  - **Capacity Section:** This section provides
+  - **Count By Type:**
+  - **Blob Count:**
+  - **Blob Capacity:**
+  - **Blob Backup:**
+  - **FileShare Info**
+  - **Cost Estimation:**
  
+## How to deploy?
+
+## References
+- https://learn.microsoft.com/en-us/azure/storage/common/storage-insights-overview
+- https://learn.microsoft.com/en-us/azure/azure-monitor/visualize/workbooks-automate
 
 
 
