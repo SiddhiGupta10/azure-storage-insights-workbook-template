@@ -35,7 +35,8 @@ This asset aims to provides workbook template as a valuable tool which can be in
   - **Blob Capacity:** Similar to Blob Count, this section also gives 2 data views - Type and Tier for same variables.  
   - **Blob Backup:** This gives grid view information backup vauly, policy, policy rule and associated storage account for type _microsoft.dataprotection/backupvaults/backupinstances_.
   - **FileShare Info** This section provides capacity utilisation information of fileshares at storage level with their count and capacity.
-  - **Cost Estimation:** Here DfS cost estimation is shown. Note - Few assumptions are made for the calculation. Please consider that it will not give the actual billing amount.
+  - **Cost Estimation:** Here DfS cost estimation is shown.
+    > Note - Few assumptions are made for the calculation. Please consider that it will not give the actual billing amount.
  
 ## How to deploy?
 
