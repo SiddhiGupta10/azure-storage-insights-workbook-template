@@ -50,7 +50,7 @@ Resource owners can create and manage their workbooks programmatically via Azure
 - [Workbook templates](https://github.com/SiddhiGupta10/azure-storage-insights-workbook-template/blob/main/workbook-template.json)
 - [Workbook instances](https://github.com/SiddhiGupta10/azure-storage-insights-workbook-template/blob/main/workbook-instance.json)
 
-These ARM templates can be deployed by using either the Azure portal, the CLI, PowerShell or pipeline. Use [sample-pipeline.yaml](https://github.com/SiddhiGupta10/azure-storage-insights-workbook-template/blob/main/sample-pipeline.yaml) for refernece.
+These ARM templates can be deployed by using either the Azure portal, the CLI, PowerShell or pipeline. Use [sample-pipeline.yaml](https://github.com/SiddhiGupta10/azure-storage-insights-workbook-template/blob/main/sample-pipeline.yaml) for reference.
 
 ## Pricing
 
