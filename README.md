@@ -47,8 +47,10 @@ This asset aims to provides workbook template as a valuable tool which can be in
 ## How to deploy?
 
 Resource owners can create and manage their workbooks programmatically via Azure Resource Manager templates (ARM templates). The workbook will be created in the desired sub/resource-group and with the content specified in the ARM templates. There are two types of workbook resources can be managed programmatically:
-- Workbook templates
-- Workbook instances
+- [Workbook templates](https://github.com/SiddhiGupta10/azure-storage-insights-workbook-template/blob/main/workbook-template.json)
+- [Workbook instances](https://github.com/SiddhiGupta10/azure-storage-insights-workbook-template/blob/main/workbook-instance.json)
+
+These ARM templates can be deployed by using either the Azure portal, the CLI, PowerShell or pipeline. Use [sample-pipeline.yaml](https://github.com/SiddhiGupta10/azure-storage-insights-workbook-template/blob/main/sample-pipeline.yaml) for refernece.
 
 ## Pricing
 
