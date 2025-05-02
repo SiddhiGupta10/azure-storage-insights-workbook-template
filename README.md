@@ -43,7 +43,8 @@ This asset aims to provides workbook template as a valuable tool which can be in
   - **FileShare Info** This section provides capacity utilisation information of fileshares at storage level with their count and capacity.
   - **Cost Estimation:** Here DfS cost estimation is shown.
     > Note - Few assumptions are made for the calculation. Please consider that it will not give the actual billing amount.
- 
+    
+![customized-workbook](customized-workbook.png) 
 ## How to deploy?
 
 Resource owners can create and manage their workbooks programmatically via Azure Resource Manager templates (ARM templates). The workbook will be created in the desired sub/resource-group and with the content specified in the ARM templates. There are two types of workbook resources can be managed programmatically:
