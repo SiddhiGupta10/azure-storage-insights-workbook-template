@@ -11,12 +11,18 @@ Storage insights provides comprehensive monitoring of your Azure Storage account
 - **Customizable** where you can change which metrics you want to see, modify or set thresholds that align with your limits, and save as your own workbook. Charts in the workbook can be pinned to Azure dashboard.
 
 ## How it is helpful?
+
 - **Improved Storage Performance**: Storage Insights can help improve storage performance by providing valuable data and insights to optimize storage systems and enhance operational efficiency.
 - **Resource Utilization Optimization**: Storage Insights enable you to optimize resource utilization, ensuring that storage resources are efficiently allocated and utilized to meet business needs.
 - **Cost Reduction**: By using Storage Insights, you can reduce costs associated with storage by identifying inefficiencies and implementing cost-saving strategies based on data-driven insights.
 - **Enhanced Security and Compliance**: Storage Insights help ensure the security and compliance of your storage environment by providing insights into data protection measures and regulatory compliance requirements
-  
+
+This capability can be useful in scenarios like:
+- Deploying org- or domain-specific analytics reports along with resources deployments. For instance, you can deploy org-specific performance and failure workbooks for your new apps or virtual machines.
+- Deploying standard reports or dashboards by using workbooks for existing resources.
+
 ## What is added and improved?
+
 We have enhanced the capability of Storage insights by updating the default workbook to give more visual information related to detailed subscription/resource group information of storage account, blob information on count, capacity and backup, fileshare capacity utilisation at sorage level and DfS cost estimation to help monitor and optimize our storage resources effectively. Visuals are generally in the form of grid view and to fetch data metrics, and graph queries are used with merge operations on  tables.
 
 This asset aims to provides workbook template as a valuable tool which can be intergrated in any environment, designed to provide a detailed overview of Azure Storage Accounts.
@@ -40,7 +46,16 @@ This asset aims to provides workbook template as a valuable tool which can be in
  
 ## How to deploy?
 
+Resource owners can create and manage their workbooks programmatically via Azure Resource Manager templates (ARM templates). The workbook will be created in the desired sub/resource-group and with the content specified in the ARM templates. There are two types of workbook resources can be managed programmatically:
+- Workbook templates
+- Workbook instances
+
+## Pricing
+
+There is no charge to access this feature and you will only be charged for the Azure Monitor essential features you configure or enable, as described on the [Azure Monitor pricing details](https://azure.microsoft.com/en-us/pricing/details/monitor/) page.
+
 ## What are the limitations?
+
 - **Scope and Scale:** 
 Limited to Storage Accounts: Storage Insights primarily focuses on Azure Storage accounts, therefore its not suitable for other types of storage solutions or third-party storage services. Also, the number of selected storage accounts has a limit of 200.
 Data Volume: When dealing with numerous storage accounts, the analysis might take longer to complete, and there could be performance impacts.
