@@ -2,6 +2,8 @@
 
 Storage insights provides comprehensive monitoring of your Azure Storage accounts by delivering a unified view of your Azure Storage services performance, capacity, and availability. You can observe storage capacity, and performance in two ways, view directly from a storage account or view from Azure Monitor to see across groups of storage accounts. 
 
+Check out blog on Tech Community - [Effective Storage Account Monitoring through Storage Insights](https://techcommunity.microsoft.com/blog/AzureInfrastructureBlog/effective-storage-account-monitoring-through-storage-insights/4411673)
+
 ## What it Delivers?
 
 - **At scale perspective** showing a snapshot view of their availability based on the health of the storage service or the API operation, utilization showing total number of requests that the storage service receives, and latency showing the average time the storage service or API operation type is taking to process requests. You can also view capacity by blob, file, table, and queue.
